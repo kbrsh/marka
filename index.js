@@ -1,0 +1,1 @@
+module.exports.marka = require('./src/marka.js');
