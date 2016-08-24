@@ -25,6 +25,7 @@
   "homepage": "https://github.com/KingPixil/marka#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-load-plugins": "^1.2.4"
+    "gulp-load-plugins": "^1.2.4",
+    "gulp-uglify": "^2.0.0"
   }
 }
