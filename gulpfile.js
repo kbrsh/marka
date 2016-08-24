@@ -8,19 +8,19 @@ var version = pjson.version;
 var comment = '\/*\r\n* Marka ' + version + '\r\n* Copyright (c) 2016, Kabir Shah\r\n* http:\/\/github.com\/KingPixil\/marka\/\r\n* Free to use under the MIT license.\r\n* http:\/\/kingpixil.github.io\/license\r\n*\/\r\n';
 
 gulp.task('build', function () {
-  return gulp.src('./src/paint.js')
+  return gulp.src('./src/marka.js')
     .pipe(banner(comment))
-    .pipe($.rename('paint.js'))
+    .pipe($.rename('marka.js'))
     .pipe($.size())
     .pipe(gulp.dest('./dist/'));
 });
 
 gulp.task('minify', ['build'], function() {
-  return gulp.src(['./dist/paint.js'])
+  return gulp.src(['./dist/marka.js'])
     .pipe($.uglify())
     .pipe(banner(comment))
     .pipe($.size())
-    .pipe($.rename('paint.min.js'))
+    .pipe($.rename('marka.min.js'))
     .pipe(gulp.dest('./dist/'));
 });
 
