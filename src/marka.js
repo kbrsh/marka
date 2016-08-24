@@ -5,6 +5,7 @@
              .replace(/\*\*(.*?)\*\*/ig, '<strong>$1</strong>') // bold
              .replace(/__(.*?)__/ig, "<strong>$1</strong>") //bold
              .replace(/\*(.*?)\*/ig, '<em>$1</em>') // italics
+             .replace(/_(.*?)_/ig, "<em>$1</em>") // italics
   };
   
   
