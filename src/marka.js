@@ -1,10 +1,16 @@
 (function(window) {
+    
   var marka = function(md) {
     
   };
 
 
-  window.marka = function(md) {
-    return new marka(md);
-  };
+  
+  if (typeof module !== 'undefined' && typeof exports === 'object') {
+    module.exports = marka;
+  } else {
+      window.marka = function(md) {
+        return new marka(md);
+      };
+  }
 })(window);
