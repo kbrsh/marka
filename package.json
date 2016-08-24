@@ -1,0 +1,26 @@
+{
+  "name": "marka",
+  "version": "0.0.0",
+  "description": "minimal markdown parser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No Test Yet\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KingPixil/marka.git"
+  },
+  "keywords": [
+    "marka",
+    "markdown",
+    "parser",
+    "markdown",
+    "marked"
+  ],
+  "author": "Kabir Shah",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KingPixil/marka/issues"
+  },
+  "homepage": "https://github.com/KingPixil/marka#readme"
+}
