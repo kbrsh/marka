@@ -10,7 +10,6 @@ var comment = '\/*\r\n* Marka ' + version + '\r\n* Copyright (c) 2016, Kabir Sha
 gulp.task('build', function () {
   return gulp.src('./src/paint.js')
     .pipe(banner(comment))
-    .pipe($.preprocess())
     .pipe($.rename('paint.js'))
     .pipe($.size())
     .pipe(gulp.dest('./dist/'));
