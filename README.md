@@ -14,3 +14,7 @@ marka("[Kabir Shah](http://kabir.ml");
 // returns
 // <a href="http://kabir.ml">Kabir Shah</a>
 ```
+
+## License
+
+Released under the [MIT License](http://kingpixil.github.io/license) by [Kabir Shah](http://kabir.ml)
