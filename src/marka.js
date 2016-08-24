@@ -2,7 +2,8 @@
     
   var marka = function(md) {
     return md.replace(/\[(.*?)\]\((.*?)\)/ig, '<a href=\'$2\'>$1</a>') // links
-             .replace(/\*\*(.*?)\*\*|__(.*?)__/ig)
+             .replace(/\*\*(.*?)\*\*/ig, '<strong>$1</strong>') // bold
+             .replace(/__(.*?)__/ig, "<strong>$1</strong>") //bold
   };
   
   
