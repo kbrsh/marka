@@ -8,6 +8,7 @@
              .replace(/_(.*?)_/ig, "<em>$1</em>") // italics
              .replace(/^\s*#\s+(.*?$)/ig, "<h1>$1</h1>") // h1
              .replace(/^\s*##\s+(.*?$)/ig, "<h2>$1</h2>") // h2
+             .replace(/^\s*###\s+(.*?$)/ig, "<h3>$1</h3>") // h3
   };
   
   
